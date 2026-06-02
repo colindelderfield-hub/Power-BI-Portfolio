@@ -20,7 +20,6 @@ Superstore Sales dataset (Kaggle)
 
 ## 📊 Dashboard
 ![Dashboard](images/Sales Dashboard 1.png)
-![Dashboard](images/Sales Dashboard 2.png)
 
 ## 🔍 Key Insights
 - The Central region generates the highest revenue
