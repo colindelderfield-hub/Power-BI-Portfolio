@@ -22,10 +22,9 @@ Superstore Sales dataset (Kaggle)
 ![Dashboard](images/Sales_Dashboard_1.png)
 
 ## 🔍 Key Insights
-- The Central region generates the highest revenue
-- Technology andOffice Supply products deliver the highest margins
-- Sales show consistent growth over time
-
+- The Central region is the highest revenue contributor over time, while Technology and Office Supply products deliver the strongest profitability,
+	indicating high value sectors for growth.
+	
 ## 🛠 Tools Used
 - Power BI
 - DAX
