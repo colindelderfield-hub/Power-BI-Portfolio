@@ -19,7 +19,7 @@ Superstore Sales dataset (Kaggle)
 - Profit Margin
 
 ## 📊 Dashboard
-![Dashboard](images/Sales Dashboard 1.png)
+![Dashboard](images/Sales_Dashboard_1.png)
 
 ## 🔍 Key Insights
 - The Central region generates the highest revenue
