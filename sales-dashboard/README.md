@@ -29,7 +29,7 @@ Superstore Sales dataset (Kaggle)
 - Power BI
 - DAX
 
-## 🚀 What I Learned
+## 🚀 Key Takeaways
 - Refreshed Power BI data modelling skills
 - Applied DAX for business metrics
 - Built a clear, business-focused dashboard

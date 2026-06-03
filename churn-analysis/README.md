@@ -47,7 +47,8 @@ The script:
 Location:
 scripts/churn_analysis.py
 
-## 🚀 What I Learned
-- Applied DAX to calculate dynamic churn metrics
-- Developed segmentation to identify churn drivers
-- Built an insight-driven dashboard for business decision-making
+## 🚀 Key Takeaways
+- Applied DAX to calculate dynamic churn metrics and segment customers effectively
+- Identified key drivers of churn including contract type, tenure, and pricing
+- Built an insight-driven dashboard focused on explaining business outcomes
+- Validated analytical findings using both Power BI and Python

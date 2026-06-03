@@ -1,17 +1,20 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("C:/Users/colin/OneDrive/Documents/Power BI/Power-BI-Portfolio/Power-BI-Portfolio/churn-analysis/data/telco.csv")
+df = pd.read_csv("../data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
-# Basic info
+# Summary
 print("Total Customers:", len(df))
 
 # Churn rate
-churn_rate = (df['Churn Label'] == 'Yes').mean()
-print("Churn Rate:", round(churn_rate * 100, 2), "%")
+churn_rate = (df['Churn'] == 'Yes').mean()
+print("Churn Rate:", f"{churn_rate:.2%}")
 
-# Churn by contract type
-churn_by_contract = df.groupby('Contract')['Churn Label'].apply(lambda x: (x == 'Yes').mean())
+# Churn by contract
+churn_by_contract = df.groupby('Contract')['Churn'].apply(
+    lambda x: (x == 'Yes').mean()
+)
 
-print("\nChurn by Contract Type:")
-print(churn_by_contract.apply(lambda x: f"{x:.2%}"))
+print("\nChurn by Contract Type:\n")
+for contract, value in churn_by_contract.items():
+    print(f"{contract}: {value:.2%}")
