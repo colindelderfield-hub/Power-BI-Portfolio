@@ -37,7 +37,12 @@ Single fact table
 
 ## 🐍 Python Analysis
 
-A simple Python script was used to explore the dataset and validate churn patterns, including overall churn rate and churn distribution by contract type.
+A Python script was used to explore the dataset and validate key insights identified in Power BI.
+
+The script:
+- Loads and inspects the dataset using pandas
+- Calculates overall churn rate
+- Analyses churn by contract type to confirm key drivers
 
 Location:
 scripts/churn_analysis.py
