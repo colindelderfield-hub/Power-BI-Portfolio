@@ -35,6 +35,13 @@ Single fact table
 - Power BI
 - DAX
 
+## 🐍 Python Analysis
+
+A simple Python script was used to explore the dataset and validate churn patterns, including overall churn rate and churn distribution by contract type.
+
+Location:
+scripts/churn_analysis.py
+
 ## 🚀 What I Learned
 - Applied DAX to calculate dynamic churn metrics
 - Developed segmentation to identify churn drivers
