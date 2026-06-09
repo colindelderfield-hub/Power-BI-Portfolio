@@ -44,6 +44,8 @@ All transformations were performed upstream in Power Query to ensure consistency
 
 ## 📊 Dashboard
 ![Dashboard](images/fabric_dashboard.png)
+![Dataflow](images/Dataflow.png)
+![Semantic Model](images/Semantic_Model.png)
 
 ## 📈 Key Analysis
 
